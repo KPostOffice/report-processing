@@ -26,7 +26,7 @@ from typing import List, Optional, Tuple, Dict
 
 import pandas as pd
 
-from utils import aggregate_thoth_results
+from ..utils import aggregate_thoth_results
 
 _LOGGER = logging.getLogger("thoth.lab.security")
 
